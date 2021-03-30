@@ -3,3 +3,38 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  min-height: 400px;
+  background-image: linear-gradient(
+    to right top,
+    #18367c, #20399c, #3938ba, #5b30d4, #8312eb);
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right:10px;
+}
